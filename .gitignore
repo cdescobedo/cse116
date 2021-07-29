@@ -1,3 +1,6 @@
 ### InelliJ IDEA ###
-.idea
+.idea/
 cse116.iml
+
+### Scala build ###
+out/
