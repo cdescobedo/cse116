@@ -9,7 +9,7 @@ object LectureQuestion {
    *   in that file where the numbers are delimited by a #
    *   and can span multiple lines
    *
-   * @param fileName
+   * @param fileName the name of the input file
    * @return the sum of all numbers in fileName
    */
   def fileSum(fileName: String): Int = {
