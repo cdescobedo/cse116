@@ -1,6 +1,6 @@
-package week1.lecture
+package lecture
 
-object FirstObjective {
+object FirstObject {
 
   /**
    * - The shipping cost is $5 + 0.25 per pound over 30
@@ -8,7 +8,7 @@ object FirstObjective {
    *
    * Ex: A 31 lb package will cost $5.25
    *
-   * @param weight
+   * @param weight the weight of the shipping package
    * @return the shipping cost represented as a double
    */
   def computeShippingCost(weight: Double): Double = {

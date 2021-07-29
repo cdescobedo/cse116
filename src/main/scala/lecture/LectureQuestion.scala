@@ -1,9 +1,17 @@
-package week1.lecture
+package lecture
 
 import scala.io.{BufferedSource, Source}
 
 object LectureQuestion {
 
+  /**
+   * - Takes a file name and computes the sum of all numbers
+   *   in that file where the numbers are delimited by a #
+   *   and can span multiple lines
+   *
+   * @param fileName the name of the input file
+   * @return the sum of all numbers in fileName
+   */
   def fileSum(fileName: String): Int = {
     val file: BufferedSource = Source.fromFile(fileName)
     var count: Int = 0
