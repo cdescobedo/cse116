@@ -1,6 +1,8 @@
-### InelliJ IDEA ###
-.idea/
-cse116.iml
+# Ignore Gradle project-specific cache directory
+.gradle
 
-### Scala build ###
-out/
+# Ignore Gradle build output directory
+build
+
+# IntelliJ IDEA
+.idea
