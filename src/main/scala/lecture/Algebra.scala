@@ -16,13 +16,16 @@ object Algebra {
       if (isPrime(num)) {
         num :: primes
       } else if ( num % divisor == 0 && isPrime(divisor)) {
-        val newNum = num / divisor
-        loop(newNum, 2, divisor :: primes)
+        val quotient = num / divisor
+
+        loop(quotient, 2, divisor :: primes)
       } else {
-        val newDiv = divisor + 1
-        loop(num, newDiv, primes)
+        val newDivisor = divisor + 1
+
+        loop(num, newDivisor, primes)
       }
     }
+
     loop(number, 2, List())
   }
 
